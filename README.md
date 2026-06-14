@@ -1,12 +1,12 @@
 # HTTPS Webpage Downloader & Analyzer
 
-> A computer networks educational project that exposes the internal mechanics of secure web communication — step by step, in real time.
+> A computer networks educational project that exposes the internal mechanics of secure web communication step by step, in real time.
 
 ---
 
 ## What It Does
 
-Most people use HTTPS every day without knowing what happens under the hood. This project pulls back the curtain. Enter any URL and watch the full connection lifecycle execute live — from DNS lookup to TLS handshake to HTML response — with every step logged and explained.
+Most people use HTTPS every day without knowing what happens under the hood. This project pulls back the curtain. Enter any URL and watch the full connection lifecycle execute live from DNS lookup to TLS handshake to HTML response with every step logged and explained.
 
 Built with **Python (Flask + raw sockets + ssl)** on the backend and a **pure HTML/CSS/JS** frontend. No high-level libraries. No curl. No magic.
 
@@ -16,7 +16,7 @@ Built with **Python (Flask + raw sockets + ssl)** on the backend and a **pure HT
 
 - Real DNS resolution using the OS resolver
 - Actual TCP 3-way handshake (SYN → SYN-ACK → ACK) with measured RTT
-- Live TLS handshake — shows version, cipher suite, and certificate validity
+- Live TLS handshake shows version, cipher suite, and certificate validity
 - Full HTTP/1.1 GET request and response parsing
 - Animated pipeline visualizer in the browser
 - Clearly separated output sections for each step
